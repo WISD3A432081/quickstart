@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/', function () {
+    return view('tasks');
+});
 use App\Task;
 use Illuminate\Http\Request;
 
